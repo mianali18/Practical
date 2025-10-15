@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Games</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+
+<body class="bodyfull">
+
+<nav class="navbar">
+    <img class="navimg" src="../videos/WhatsApp Image 2025-09-29 at 02.46.11.jpeg" alt="">
+    <h1 class="name"> Ali Games</h1>
+    <input class="search" type="search" placeholder="search">
+
+    <div class="buttons">
+        <button class="topbtn btn"><a href="./home.html">Home</a></button>
+        <button class="topbtn btn"><a href="./games1.html">Games</a></button>
+        <button class="topbtn btn"><a href="">Contact Us</a></button>
+        <button class="topbtn btn"><a href="">Feedback</a></button>
+        <button class="topbtn btn"><a href="../signup and login/loginpage.html">Signup</a></button>
+    </div>
+</nav>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<body class="divimg">
+    
+  <div class="parent">
+    <div class="child" id="div1"></div>
+    <div class="child" id="div2"></div>
+    <div class="child" id="div3"></div>
+    <div class="child" id="div4"></div>
+  </div>
+
+  <script>
+    const bgSets = [
+      ["./pics/Gta-vice-city-ft.jpg", "./pics/gta5.jpg", "./pics/ac\ miraj.jpg", "./pics/cyberpunk.jpg","./pics/takken\ 8.jpg)","./pics/Minecraft.jpg)"],
+      ["./pics/far\ cry6.jpg", "./pics/god\ of\ war.jpg", "./pics/rdr2.jpg", "./pics/san\ andreas\ gta.jpg", "./pics/road\ rage.jpg","./pics/resident\ evi.jpg"],
+      ["./pics/the\ evil\ within.jpg", "./pics/the\ last\ of\ us.jpg", "./pics/TheHouseOfTheDeadRemake.jpg","./pics/inside.jpg","./pics/forza\ 5.jpg","./pics/spider\ man.jpg"],
+      ["./pics/battle\ field.jpg", "./pics/dishonored-.jpg", "./pics/dishonored\ 2.jpg","./pics/assassins-creed-iii-pc-game-ubisoft-connect-cover.jpg","./pics/warzone.jpg"],
+    ];
+
+    const divs = [
+      document.getElementById("div1"),
+      document.getElementById("div2"),
+      document.getElementById("div3"),
+      document.getElementById("div4"),
+    ];
+
+    let indices = [0, 0, 0, 0]; // tracks each div’s current image
+
+    function changeBackgrounds() {
+      divs.forEach((div, i) => {
+        div.style.backgroundImage = `url(${bgSets[i][indices[i]]})`;
+        indices[i] = (indices[i] + 1) % bgSets[i].length;
+      });
+    }
+
+    // Show first set of images instantly
+    changeBackgrounds();
+
+    // Change every 3 seconds
+    setInterval(changeBackgrounds, 3000);
+  </script>
+</body>
+
+
+
+
+
+
+
+<div class="bodylast">
+
+    <div class="contact">
+
+        <h1>Contact Us</h1>
+        <H2 class="conemail">Email: aligamesstore@gmail.com</H2>
+    
+    </div>
+
+    <div class="feedback"> 
+       
+        <div class="feedform"> 
+          <label for="">Name:</label><br>
+          <input class="email" type="text"><br><br>
+          <label for="">Email:</label><br>
+          <input class="email" type="email"><br><br><br><br>
+          <button class="sendfeed"> <a href="">Send Feedback</a></button>
+        </div>
+    
+        <div class="feedform1">
+          <label for="">Feedback:</label><br>
+          <textarea class="textarea" name="Feedback" rows="" id=""></textarea>
+        </div>
+
+    </div>
+
+</div bodylast>
+
+
+    
+</body>
+</html>

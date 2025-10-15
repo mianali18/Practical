@@ -1,0 +1,79 @@
+.bodyofgames{
+    margin: 0;
+    height: 100vh;
+    background:linear-gradient(to right, grey,black);
+    overflow-x: hidden;
+
+}
+
+.gamebtn{
+    position: relative;
+    right: -670px;
+}
+.gamenext{
+    background-color:antiquewhite;
+    border-radius: 6px;
+}
+.gamenext a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+
+.games{
+    margin: 10%;
+    gap: 50px;
+    display: flex;
+    position: relative;
+    bottom: -160px;
+    
+    
+}
+
+.game{
+    height: 400px;
+    width: 650px;
+    border-radius: 30px;
+    border: 4px solid rgb(87, 81, 81);
+    transition: transform 0.4s ease;
+    
+}
+.game:hover{
+transform:translateY(-40px)
+}
+
+.linkbg{
+    /* inset: 0;
+    position: absolute;
+    z-index: 1; */
+}
+
+
+/* .gamevideo{
+    height: 200px;
+    width:400px;
+    margin: 20px;
+    
+}
+.gamename{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.downgame{
+    margin: 20px;
+    background-color: antiquewhite;
+    height: 25px;
+    width:90px;
+    border-radius: 10px;
+    position: relative;
+    right: -30px;
+}
+.downgame a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    color: brown;
+} */
+

@@ -1,0 +1,114 @@
+.signup{
+    background-color: bisque;
+    height: 700px;
+   width: 500px; 
+   border-radius: 100px;
+   position: relative;
+   right: -500px;
+   text-align: center;
+   box-shadow: 20px 30px 10px burlywood;
+   
+}
+.page{
+    position: relative;
+    bottom: -50px;
+}
+.h1{
+    color: burlywood;
+}
+.name{
+    color: brown;
+}
+#name{
+    background-color: burlywood;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 300px;
+}
+.father{
+    color: brown;
+}
+#father{
+    color: burlywood;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 300px;
+}
+.country{
+    color: brown;
+}
+#country{
+    background-color: burlywood;
+    border-radius: 10px;
+    color: burlywood;
+    border: none;
+    height: 25px;
+    width: 300px;
+}
+.phone{
+    color: brown;
+}
+#phone{
+    background-color: burlywood;
+    border-radius: 10px;
+    background-color: burlywood;
+    border: none;
+    height: 25px;
+    width: 300px;
+}
+.email{
+    color: brown;
+    
+}
+#email
+{border: none;
+background-color: burlywood;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+}
+.password{
+    color: brown;}
+   
+#password{background-color: burlywood;
+    border-radius: 10px;
+    border: none;
+    height: 25px;
+    width: 300px;
+
+}
+.cpass{
+    color: brown;
+}
+#cpass{
+    background-color:burlywood;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+
+
+}
+.date{
+background-color: burlywood;
+border: 10px;
+
+
+}
+.submit{
+height: 25px;
+width: 80px;
+background-color: burlywood;
+border: none;
+border-radius: 10px;
+}
+#submit{
+    height: 25px;
+width: 80px;
+background-color: burlywood;
+border: none;
+border-radius: 10px;
+}

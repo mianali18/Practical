@@ -1,0 +1,25 @@
+.seen1{
+    background-image: url(./pics/vicecity1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seen2{
+    background-image: url(./pics/vc2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seen3{
+    background-image: url(./pics/vc3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seen4{
+    background-image: url(./pics/vc4.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

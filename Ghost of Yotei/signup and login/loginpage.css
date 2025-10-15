@@ -1,0 +1,72 @@
+.loginpage{
+
+height: 500px;
+width: 400px;
+position: relative;
+right: -550px;
+bottom: -50px;
+    border-radius: 100px;
+    background-color: bisque;
+    text-align: center;
+    box-shadow: 20px 30px 10px burlywood;
+}
+
+.form{
+
+    height: 350px;
+    width: 350px;
+   }
+    .inside{
+
+    position: relative;
+    bottom: -60px;
+    }
+
+h1{
+    color: brown;
+   }
+
+.signupbtn{
+color: rgb(196, 63, 34);
+background-color: burlywood;
+border-radius: 30px;
+border: none;
+height: 30px;
+width: 85px;
+}
+#create{
+    color: rgb(196, 63, 34);
+background-color: burlywood;
+border-radius: 30px;
+border: none;
+height: 30px;
+width: 85px;
+}
+.email{
+height: 35px;
+width: 300px;
+color: brown(196, 63, 34);
+background-color: burlywood;
+border-radius: 10px;
+border: none;
+}
+.password{
+
+height: 35px;
+width:300px;
+color: rgb(196, 63, 34);
+background-color: burlywood;
+border-radius: 10px;
+border: none;
+}
+#email{
+    color: brown;
+    height: 10px;
+}
+#password{
+    color: brown;
+}
+.class{
+    color: brown;
+
+}
